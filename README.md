@@ -20,7 +20,7 @@ For a smaller and more challenging background set, the sets "background small 1"
 
 Learn about the structure of the data set by running the script 'demo.m'.   
 
-Key data files:   
+Key data files (images and strokes):   
 data_background.mat   
 data_evaluation.mat   
 data_background_small1.mat   
@@ -34,7 +34,7 @@ To compare with the one-shot classification results in our paper, run 'demo_clas
 Python 2.7.*   
 Requires scipy and numpy   
 
-Key data files:   
+Key data files (images only):   
 images_background.zip   
 images_evaluation.zip   
 images_background_small1.zip   

@@ -103,6 +103,7 @@ if __name__ == "__main__":
 	# ** Models should be trained on images in 'images_background' directory to avoid 
 	#  using images and alphabets used in the one-shot evaluation **
 	#
+	print 'One-shot classification demo with Modified Hausdorff Distance'
 	perror = np.zeros(nrun)
 	for r in range(1,nrun+1):
 		rs = str(r)
