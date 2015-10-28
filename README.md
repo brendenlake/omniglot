@@ -46,7 +46,8 @@ To compare with the one-shot classification results in our paper, enter the 'one
 ### Citing this data set
 Please cite the following paper:
 
-Human-level concept learning through probabilistic program induction
-By Brenden Lake, Ruslan Salakhutdinov, and Joshua Tenenbaum 
+
+Lake, Brenden M., Salakhutdinov, Ruslan, and Tenenbaum, Joshua B. (in press). Human-level concept learning through probabilistic program induction. _Science_.
+
 
 We are grateful for the [Omniglot](http://www.omniglot.com/) encyclopedia of writing systems for helping to make this data set possible.
