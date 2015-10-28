@@ -4,6 +4,16 @@ This dataset contains 1623 different handwritten characters from 50 different al
 Each of the 1623 characters was drawn online via Amazon's Mechanical Turk by 20 different people.   
 Each image is paired with stroke data, a sequences of [x,y,t] coordinates with time (t) in milliseconds. Stroke data is available in MATLAB files only.
 
+### Citing this data set
+Please cite the following paper:
+
+
+Lake, Brenden M., Salakhutdinov, Ruslan, and Tenenbaum, Joshua B. (in press). Human-level concept learning through probabilistic program induction. _Science_.
+
+
+We are grateful for the [Omniglot](http://www.omniglot.com/) encyclopedia of writing systems for helping to make this data set possible.
+
+
 ### CONTENTS
 The Omniglot data set contains 50 alphabets total.
 
@@ -41,13 +51,3 @@ images_background_small1.zip
 images_background_small2.zip   
 
 To compare with the one-shot classification results in our paper, enter the 'one-shot-classification' directory and unzip 'all_runs.zip' and place all the folders 'run01',...,'run20' in the current directory. Run 'demo_classification.py' to demo a baseline model using Modified Hausdorff Distance.
-
-
-### Citing this data set
-Please cite the following paper:
-
-
-Lake, Brenden M., Salakhutdinov, Ruslan, and Tenenbaum, Joshua B. (in press). Human-level concept learning through probabilistic program induction. _Science_.
-
-
-We are grateful for the [Omniglot](http://www.omniglot.com/) encyclopedia of writing systems for helping to make this data set possible.
