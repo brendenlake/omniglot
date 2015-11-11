@@ -11,7 +11,7 @@ Please cite the following paper:
 Lake, Brenden M., Salakhutdinov, Ruslan, and Tenenbaum, Joshua B. (in press). Human-level concept learning through probabilistic program induction. _Science_.
 
 
-We are grateful for the [Omniglot](http://www.omniglot.com/) encyclopedia of writing systems for helping to make this data set possible.
+We are grateful for the [Omniglot](http://www.omniglot.com/) encyclopedia of writing systems for helping to make this data set possible, and for [Jason Gross](https://people.csail.mit.edu/jgross/) who was essential to the development and collection of this data set.
 
 
 ### CONTENTS
@@ -23,7 +23,7 @@ Here is the split:
 
 To compare with the results in our paper, only the background set should be used by algorithms to learn general knowledge about characters (e.g., hyper-parameter inference or feature learning). One-shot learning results are reported using alphabets from the evaluation set.
 
-For a smaller and more challenging background set, the sets "background small 1"  and "background small 2" contain just 5 alphabets each.
+A more challenging representation learning task uses the smaller background sets "background small 1" and "background small 2". Each of these contains just 5 alphabets, more similar to the experience that a human adult might have in learning about characters in general.  Our paper reports a large set of results on the 30 background alphabets, as well as results for several models on these smaller, more challenging background sets.
 
 
 ### MATLAB
