@@ -15,13 +15,9 @@ We are grateful for the [Omniglot](http://www.omniglot.com/) encyclopedia of wri
 
 
 ### CONTENTS
-The Omniglot data set contains 50 alphabets total.
+The Omniglot data set contains 50 alphabets total. We generally split these into a background set of 30 alphabets and an evaluation set of 20 alphabets.  
 
-Here is the split:   
-	background : 30 alphabets   
-	evaluation : 20 alphabets   
-
-To compare with the results in our paper, only the background set should be used by algorithms to learn general knowledge about characters (e.g., hyper-parameter inference or feature learning). One-shot learning results are reported using alphabets from the evaluation set.
+To compare with the results in our paper, only the background set should be used to learn general knowledge about characters (e.g., hyperparameter inference or feature learning). One-shot learning results are reported using alphabets from the evaluation set.
 
 A more challenging representation learning task uses the smaller background sets "background small 1" and "background small 2". Each of these contains just 5 alphabets, more similar to the experience that a human adult might have in learning about characters in general.  Our paper reports a large set of results on the 30 background alphabets, as well as results for several models on these smaller, more challenging background sets.
 
