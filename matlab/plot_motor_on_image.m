@@ -7,7 +7,7 @@
 %   bool_start: [logical] (default=true) show start position?
 %   lw: [scalar] (default=4) line width
 %
-function plot_motor_to_image(I,drawing,bool_start,lw)
+function plot_motor_on_image(I,drawing,bool_start,lw)
 
     if ~exist('bool_start','var')
        bool_start = true; % show start position?

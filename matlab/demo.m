@@ -29,7 +29,7 @@ for a=1:nalpha
        subplot(nrow,ncol,r);
        
        % switch between these two lines to show either image vs. motor data
-       plot_motor_to_image(item.image,item.drawing,true,1); 
+       plot_motor_on_image(item.image,item.drawing,true,1); 
 %        plot_image_only(item.image);
     end
     
