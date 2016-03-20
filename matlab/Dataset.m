@@ -1,4 +1,4 @@
-classdef Dataset < matlab.mixin.Copyable
+classdef Dataset < handle
     %DATASET Class that stores structured character data
     %   This class stores, and provides easy access, to the
     %   sturctured character data. Using the "get" method,
