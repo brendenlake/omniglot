@@ -35,6 +35,37 @@ data_background_small2.mat
 To compare with the one-shot classification results in our paper, run 'demo_classification.m' in the 'one-shot-classification' folder to demo a baseline model using Modified Hausdorff Distance.
 
 
+### GNU OCTAVE 4.0
+
+Changes needed to make MATLAB demos compatible with GNU Octave 4.0:
+
+##### Before running 'demo.m'.:
+
+ 1. Change classdef Dataset superclass to 'handle'
+    - Edit 1st line of 'Dataset.m’, and change 'matlab.mixin.copyable' to 'handle'
+    - (see http://www.mathworks.com/help/matlab/ref/matlab.mixin.copyable-class.html)
+    - CAUTION: Is this change safe? Does it degrade performance? Will it result in too much memory usage?
+
+ 2. Move 'randint' function from Dataset.m to a standalone file
+    - cut the 'randint' function from bottom of Dataset.m
+    - paste the cut function into new file randint.m
+
+
+##### Before running 'demo_classification.m' in the 'one-shot-classification' folder:
+
+ 1. Download packages:
+    - http://octave.sourceforge.net/io/index.html
+    - http://octave.sourceforge.net/statistics/index.html
+
+ 2. install/load from the Octave prompt:
+    - pkg install {download-directory}\io-2.4.1.tar.gz    - pkg install {download-directory}\statistics-1.2.4.tar.gz
+    - pkg load statistics
+
+##### Octave Bug:
+    - 'plot_motor_on_image' renders unwanted artifacts
+    - Workaround: switch to 'plot_image_only' in demo.m
+
+
 ### PYTHON
 
 Python 2.7.*   
