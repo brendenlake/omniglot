@@ -3,4 +3,8 @@ python/images_background
 python/images_background_small1
 python/images_background_small2
 python/images_evaluation
+python/strokes_background
+python/strokes_background_small1
+python/strokes_background_small2
+python/strokes_evaluation
 python/one-shot-classification/run**
